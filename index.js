@@ -7,7 +7,7 @@ app.use(express.json())
 app.get('/',(req,res)=>{
     res.status(200).send(`<h1>Welcome to Express</h1>`)
 })
-
+ 
 app.post('/createFile',(req,res)=>{
     const folderpath ='./textFiles';
 
